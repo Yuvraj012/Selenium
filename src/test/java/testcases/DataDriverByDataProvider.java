@@ -26,6 +26,8 @@ public class DataDriverByDataProvider {
 driver.findElement(By.xpath("//input[@name='userName']")).sendKeys(user);
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(pass);
 		driver.findElement(By.xpath("//input[@name='submit']")).click();
+		
+		//driver.findElement(By.xpath("//input[@name='submit']")).click();
 	}
 
 	@DataProvider(name = "userData")
